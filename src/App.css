@@ -2,3 +2,16 @@ body {
   padding:10px;
 }
 
+.inputs{
+  display: flex;
+  align-items: center;
+}
+
+.doneCheck {
+  scale: 1.7;
+  margin-left: 100px;
+}
+
+label {
+  margin-left: 5px;
+}

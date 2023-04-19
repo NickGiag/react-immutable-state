@@ -1,7 +1,7 @@
 import Buttons from "./Buttons"
 import '../style/Workout.css'
 
-function Workout({workout, deleteWorkout, completeWorkout}) {
+function Workout({workout, deleteWorkout, completeWorkout,changeWorkout}) {
 
     
     return (
@@ -13,6 +13,7 @@ function Workout({workout, deleteWorkout, completeWorkout}) {
             workout={workout}
             deleteWorkout={deleteWorkout}
             completeWorkout={completeWorkout}
+            changeWorkout={changeWorkout}
             />
         </li>
     )

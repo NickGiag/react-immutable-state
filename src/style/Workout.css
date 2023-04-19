@@ -1,5 +1,5 @@
 li {
     display: grid;
-    grid-template-columns: 400px 70px 70px;
+    grid-template-columns: 400px 70px 70px 70px;
     gap:10px;
 }
